@@ -118,14 +118,14 @@ class WC_Checkout {
 			);
 		}
 
-		$this->checkout_fields['order']	= array(
-			'order_comments' => array(
-				'type' => 'textarea',
-				'class' => array('notes'),
-				'label' => __( 'Order Notes', 'woocommerce' ),
-				'placeholder' => _x('Notes about your order, e.g. special notes for delivery.', 'placeholder', 'woocommerce')
-			)
-		);
+		// $this->checkout_fields['order']	= array(
+		// 	'order_comments' => array(
+		// 		'type' => 'textarea',
+		// 		'class' => array('notes'),
+		// 		'label' => __( 'Order Notes', 'woocommerce' ),
+		// 		'placeholder' => _x('Notes about your order, e.g. special notes for delivery.', 'placeholder', 'woocommerce')
+		// 	)
+		// );
 
 		$this->checkout_fields = apply_filters( 'woocommerce_checkout_fields', $this->checkout_fields );
 

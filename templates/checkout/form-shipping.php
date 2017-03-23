@@ -19,7 +19,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
+echo __FILE__ , PHP_EOL;
 ?>
 <div class="woocommerce-shipping-fields">
 

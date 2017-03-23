@@ -26,10 +26,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div id="important-note-1">
 		<p><?php _e('Important!', 'woocommerce')?></p>
 		<p>
-			<?php _e('- safe2choose helps provide access to abortion pills by working with distribution centers that use different mailing service companies. Once a distribution center sends a package, safe2choose does not have control over the delivery process.', 'woocommerce');?>
-		</p>
-		<p>
-			<?php _e('- When the package has arrived at its destination, your local postal service is in charge of distributing it. This process will depend on local law and practices.', 'woocommerce'); ?>
+			<?php _e('Before completing your order review your address and make sure it is complete and correct. It should include a house number, street, neighborhood/district, city, state and zip code/ postal code.', 'woocommerce');?>
 		</p>
 	</div>
 
